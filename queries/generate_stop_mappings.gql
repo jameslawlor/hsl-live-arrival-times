@@ -1,0 +1,7 @@
+{{
+  stops {{
+    gtfsId
+    name
+    code
+  }}
+}}
