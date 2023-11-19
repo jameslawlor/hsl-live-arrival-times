@@ -1,20 +1,13 @@
 {{
     stop(id: "{input_stop_id}") {{
-        name
         stoptimesWithoutPatterns {{
-            scheduledArrival
-            realtimeArrival
-            arrivalDelay
-            scheduledDeparture
-            realtimeDeparture
-            departureDelay
-            realtime
-            realtimeState
-            serviceDay
             headsign
             trip {{
                 routeShortName
             }}
+            scheduledDeparture
+            realtimeDeparture
+            serviceDay
         }}
     }}
 }}
